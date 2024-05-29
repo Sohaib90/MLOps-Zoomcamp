@@ -1,0 +1,7 @@
+artifact_location: file:///Users/sohaibarshid/Desktop/MLOps-Zoomcamp-learning/02-tracking/artifacts
+creation_time: 1717020096112
+experiment_id: '243438843657235373'
+last_update_time: 1717020290403
+lifecycle_stage: deleted
+name: nyc-taxi-experiment-random-forest
+tags: {}
