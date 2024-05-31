@@ -1,0 +1,15 @@
+artifact_uri: file:///home/src/homework_03/mlruns/164904999859227366/1150810f7daa49f58cdd7f18e0bc70d7/artifacts
+end_time: 1717158477530
+entry_point_name: ''
+experiment_id: '164904999859227366'
+lifecycle_stage: active
+run_id: 1150810f7daa49f58cdd7f18e0bc70d7
+run_name: resilient-asp-929
+run_uuid: 1150810f7daa49f58cdd7f18e0bc70d7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717158476496
+status: 3
+tags: []
+user_id: root

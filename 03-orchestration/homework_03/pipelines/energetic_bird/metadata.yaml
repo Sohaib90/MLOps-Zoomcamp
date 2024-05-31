@@ -1,0 +1,136 @@
+blocks:
+- all_upstream_blocks_executed: true
+  color: null
+  configuration: {}
+  downstream_blocks:
+  - beautiful_prophecy
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: python
+  name: damp maple
+  retry_config: null
+  status: executed
+  timeout: null
+  type: data_loader
+  upstream_blocks: []
+  uuid: damp_maple
+- all_upstream_blocks_executed: true
+  color: null
+  configuration: {}
+  downstream_blocks:
+  - iridescent_oracle
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: python
+  name: beautiful prophecy
+  retry_config: null
+  status: executed
+  timeout: null
+  type: transformer
+  upstream_blocks:
+  - damp_maple
+  uuid: beautiful_prophecy
+- all_upstream_blocks_executed: true
+  color: null
+  configuration: {}
+  downstream_blocks: []
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: python
+  name: pastel pond
+  retry_config: null
+  status: updated
+  timeout: null
+  type: scratchpad
+  upstream_blocks: []
+  uuid: pastel_pond
+- all_upstream_blocks_executed: true
+  color: null
+  configuration: {}
+  downstream_blocks:
+  - insightful_illusion
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: python
+  name: iridescent oracle
+  retry_config: null
+  status: executed
+  timeout: null
+  type: transformer
+  upstream_blocks:
+  - beautiful_prophecy
+  uuid: iridescent_oracle
+- all_upstream_blocks_executed: true
+  color: null
+  configuration: {}
+  downstream_blocks: []
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: python
+  name: kinetic knight
+  retry_config: null
+  status: updated
+  timeout: null
+  type: scratchpad
+  upstream_blocks: []
+  uuid: kinetic_knight
+- all_upstream_blocks_executed: true
+  color: null
+  configuration: {}
+  downstream_blocks: []
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: python
+  name: idyllic water
+  retry_config: null
+  status: updated
+  timeout: null
+  type: scratchpad
+  upstream_blocks: []
+  uuid: idyllic_water
+- all_upstream_blocks_executed: true
+  color: null
+  configuration: {}
+  downstream_blocks: []
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: python
+  name: insightful illusion
+  retry_config: null
+  status: executed
+  timeout: null
+  type: data_exporter
+  upstream_blocks:
+  - iridescent_oracle
+  uuid: insightful_illusion
+cache_block_output_in_memory: false
+callbacks: []
+concurrency_config: {}
+conditionals: []
+created_at: '2024-05-31 10:37:20.085053+00:00'
+data_integration: null
+description: nyc yellow taxi data from 03.2023
+executor_config: {}
+executor_count: 1
+executor_type: null
+extensions: {}
+name: energetic bird
+notification_config: {}
+remote_variables_dir: null
+retry_config: {}
+run_pipeline_in_one_process: false
+settings:
+  triggers: null
+spark_config: {}
+tags: []
+type: python
+uuid: energetic_bird
+variables_dir: /home/src/mage_data/homework_03
+widgets: []

@@ -1,0 +1,1 @@
+{"Survived": "int64", "Pclass": "int64", "Name": "str", "Sex": "str", "Age": "float64", "Siblings/Spouses Aboard": "int64", "Parents/Children Aboard": "int64", "Fare": "float64"}

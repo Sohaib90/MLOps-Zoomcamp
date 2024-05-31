@@ -1,0 +1,15 @@
+artifact_uri: file:///home/src/homework_03/mlruns/164904999859227366/f9514af2833946108a1d491cd76cf002/artifacts
+end_time: 1717158536923
+entry_point_name: ''
+experiment_id: '164904999859227366'
+lifecycle_stage: active
+run_id: f9514af2833946108a1d491cd76cf002
+run_name: efficient-hare-878
+run_uuid: f9514af2833946108a1d491cd76cf002
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717158536893
+status: 4
+tags: []
+user_id: root

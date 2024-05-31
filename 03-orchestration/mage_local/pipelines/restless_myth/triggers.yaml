@@ -1,0 +1,14 @@
+triggers:
+- description: null
+  envs: []
+  last_enabled_at: 2024-05-31 09:23:42.377531
+  name: refined ranger
+  pipeline_uuid: restless_myth
+  schedule_interval: '@once'
+  schedule_type: time
+  settings: null
+  sla: null
+  start_time: 2024-05-31 09:24:00
+  status: active
+  token: 87b776c2d83e46dab80c0142c0119d74
+  variables: {}

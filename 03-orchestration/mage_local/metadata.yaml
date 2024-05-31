@@ -1,0 +1,11 @@
+project_uuid: 9d5ece4f5c2d44f2b1e66665efbf24fd
+features:
+  command_center: true
+  add_new_block_v2: true
+  automatic_kernel_cleanup: true
+  compute_management: true
+  custom_design: true
+  display_local_timezone: true
+  notebook_block_output_split_view: true
+help_improve_mage:
+pipelines:

@@ -1,0 +1,150 @@
+blocks:
+- all_upstream_blocks_executed: true
+  color: null
+  configuration: {}
+  downstream_blocks:
+  - unique_values_for_dawn_wind
+  - dawn_wind_bar_chart_p7
+  - summary_overview_for_dawn_wind
+  - most_frequent_values_for_dawn_wind
+  - feature_profiles_for_dawn_wind
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: python
+  name: dawn wind
+  retry_config: null
+  status: executed
+  timeout: null
+  type: data_loader
+  upstream_blocks: []
+  uuid: dawn_wind
+cache_block_output_in_memory: false
+callbacks: []
+concurrency_config: {}
+conditionals: []
+created_at: '2024-05-31 08:46:11.364371+00:00'
+data_integration: null
+description: This is a test pipeline required for learning mage
+executor_config: {}
+executor_count: 1
+executor_type: null
+extensions: {}
+name: restless myth
+notification_config: {}
+remote_variables_dir: null
+retry_config: {}
+run_pipeline_in_one_process: false
+settings:
+  triggers: null
+spark_config: {}
+tags:
+- learn
+type: python
+uuid: restless_myth
+variables_dir: /Users/sohaibarshid/.mage_data/mage_local
+widgets:
+- all_upstream_blocks_executed: true
+  color: null
+  configuration:
+    chart_style: horizontal
+    chart_type: bar chart
+    x: columns
+    y: number_of_unique_values
+    y_sort_order: descending
+  downstream_blocks: []
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: python
+  name: unique values for dawn_wind
+  retry_config: null
+  status: executed
+  timeout: null
+  type: chart
+  upstream_blocks:
+  - dawn_wind
+  uuid: unique_values_for_dawn_wind
+- all_upstream_blocks_executed: true
+  color: null
+  configuration:
+    chart_style: vertical
+    chart_type: bar chart
+    x: x
+    y: y
+  downstream_blocks: []
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: python
+  name: dawn_wind_bar chart_p7
+  retry_config: null
+  status: executed
+  timeout: null
+  type: chart
+  upstream_blocks:
+  - dawn_wind
+  uuid: dawn_wind_bar_chart_p7
+- all_upstream_blocks_executed: true
+  color: null
+  configuration:
+    chart_type: table
+    height: 3000
+    index: stats
+    x: headers
+    y: rows
+  downstream_blocks: []
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: python
+  name: summary overview for dawn_wind
+  retry_config: null
+  status: executed
+  timeout: null
+  type: chart
+  upstream_blocks:
+  - dawn_wind
+  uuid: summary_overview_for_dawn_wind
+- all_upstream_blocks_executed: true
+  color: null
+  configuration:
+    chart_type: table
+    height: 3000
+    index: column_index
+    x: columns
+    y: rows
+  downstream_blocks: []
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: python
+  name: most frequent values for dawn_wind
+  retry_config: null
+  status: executed
+  timeout: null
+  type: chart
+  upstream_blocks:
+  - dawn_wind
+  uuid: most_frequent_values_for_dawn_wind
+- all_upstream_blocks_executed: true
+  color: null
+  configuration:
+    chart_type: table
+    height: 3000
+    index: stats
+    x: columns
+    y: rows
+  downstream_blocks: []
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: python
+  name: feature profiles for dawn_wind
+  retry_config: null
+  status: executed
+  timeout: null
+  type: chart
+  upstream_blocks:
+  - dawn_wind
+  uuid: feature_profiles_for_dawn_wind
